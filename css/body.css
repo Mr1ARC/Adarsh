@@ -39,7 +39,7 @@
   background-color: lightpink;
   flex : 1;
   /*margin-left: 520px;*/
-  height: 1000px;
+  /*height: 1000px;*/
   flex-direction: row;
   display: grid;
   grid-template-rows: max-content;
