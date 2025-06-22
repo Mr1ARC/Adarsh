@@ -1,5 +1,8 @@
 
-
+body{
+  background-color: rgb(72, 72, 72);
+  color: white;
+}
 .outer-section{
   display: flex;
   gap: 20px;
@@ -13,14 +16,14 @@
 }
 
 .profile-fixed{
-  background-color: lightblue;
+  background-color: rgb(72, 72, 72);
+  color: white;
   width: 500px;
   position: fixed;
   bottom: 20px;
   top: 20px;
   left: 20px;
-  border: solid;
-  border-radius: 8px;
+  
   
 }
 
@@ -29,67 +32,13 @@
   
   display: grid;
   grid-template-rows: max-content;
-  
-}
-
-.content{
- 
-  right: 0;
-  margin-left: 20px;
-  background-color: lightpink;
-  flex : 1;
-  /*margin-left: 520px;*/
-  /*height: 1000px;*/
-  flex-direction: row;
-  display: grid;
-  grid-template-rows: max-content;
-}
-
-.about-me-box, .skills-box{
-  display: inline-block;
-  padding: 20px;
-  margin: 20px;
   border: solid;
-  border-radius: 30px;
-  border-width: 0.1px;
-  transition:  0.5s ;
- box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.5);
- width: 400px;
+  border-radius: 20px;
+  border-color: rgb(72, 72, 72);
+  box-shadow: inset 10px 10px 100px rgba(0, 0, 0, 0.5);
   
 }
 
-.about-me-box:hover, .skills-box:hover{
-  padding: 50px;
-}
-
-.about-me{
-  margin-top: -1px;
-}
-
-.about-me, 
-.skills{
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  
-}
-
-.about-me-content,
-.skills-content{
-  font-size: 18px;
-  width: 300px;
-  
-}
-
-.skills-box{
-  height: 100px;
-  padding: 20px;
-
-}
-
-.skills{
-  margin-top: 0px;
-}
 
 /* profile photo*/
 
@@ -97,10 +46,12 @@
   width: 100px;
   margin-left: 150px;
   margin-top: 40px;
-  margin-bottom: 40px;
-   border: solid;
-   padding: 50px;
-  
+  margin-bottom: 0px;
+  border: solid;
+  padding: 50px;
+  border-radius: 16px;
+  border-color: rgb(72, 72, 72);
+  box-shadow: inset 10px 10px 100px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -123,4 +74,132 @@
   margin-left: 170px;
   padding: 10px;
   width: 150px;
+  margin-bottom: 30px;
+  background-color: rgb(72, 72, 72);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/*contact */
+.gmail-div,
+.phone-div,
+.dob-div,
+.location-div{
+  
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: inset 10px 10px 35px rgba(0, 0, 0, 0.5);
+}
+.gmail-logo{
+  width: 40px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 20px;
+  
+}
+
+.gmail{
+  display: inline-block;
+  font-size: 18px;
+
+  
+}
+
+/*icons*/
+
+.icon-div{
+  display: flex;
+  display: inline-block;
+ justify-items: center;
+ 
+  
+
+}
+
+.insta,.git,.linkedin {
+  display: inline-block;
+   margin-right: 8px;
+}
+.insta{
+  margin-left: 140px;
+  margin-top: 60px;
+
+}
+
+/*/////////////////CONTENT/////////////////*/
+
+
+.content{
+ 
+  right: 0;
+  margin-left: 20px;
+  background-color: rgb(72, 72, 72);
+  flex : 1;
+  /*margin-left: 520px;*/
+  /*height: 1000px;*/
+  flex-direction: row;
+  display: grid;
+  grid-template-rows: max-content;
+}
+
+.about-me-box, .skills-box, .education-box{
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-radius: 30px;
+  border-width: 0.1px;
+  transition:  0.5s ;
+ box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.5);
+ width: 400px;
+  
+}
+
+.about-me-box:hover, 
+.skills-box:hover, 
+.education-box:hover{
+
+  padding: 50px;
+}
+
+.about-me{
+  margin-top: -1px;
+}
+
+.about-me, 
+.skills,.education{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  
+}
+
+.about-me-content,
+.skills-content,.education-content{
+  font-size: 18px;
+  width: 300px;
+  
+}
+
+.skills-box{
+  height: 100px;
+  padding: 20px;
+
+}
+
+.skills{
+  margin-top: 0px;
+}
+
+.education{
+  margin-top: 0px;
 }
