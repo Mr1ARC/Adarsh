@@ -2,6 +2,9 @@
 body{
   background-color: rgb(72, 72, 72);
   color: white;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .outer-section{
   display: flex;
@@ -19,11 +22,11 @@ body{
   background-color: rgb(72, 72, 72);
   color: white;
   width: 500px;
-  position: fixed;
+ 
   bottom: 20px;
   top: 20px;
   left: 20px;
-  
+   position: fixed;
   
 }
 
@@ -36,8 +39,10 @@ body{
   border-radius: 20px;
   border-color: rgb(72, 72, 72);
   box-shadow: inset 10px 10px 100px rgba(0, 0, 0, 0.5);
-  
+  transition: 1s;
+   
 }
+
 
 
 /* profile photo*/
@@ -59,7 +64,9 @@ body{
 
 .name{
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
   margin-left: 155px;
   
   display: inline-block;
@@ -135,20 +142,24 @@ body{
 
 }
 
+.insta-image{
+  width: 20px;
+}
+
 /*/////////////////CONTENT/////////////////*/
 
 
 .content{
  
   right: 0;
-  margin-left: 20px;
+  margin-left: 100px;
   background-color: rgb(72, 72, 72);
   flex : 1;
   /*margin-left: 520px;*/
   /*height: 1000px;*/
   flex-direction: row;
   display: grid;
-  grid-template-rows: max-content;
+  grid-template-rows: max-content; 
 }
 
 .about-me-box, .skills-box, .education-box{
@@ -156,11 +167,14 @@ body{
   padding: 20px;
   margin: 20px;
   border: solid;
+  border: none;
   border-radius: 30px;
   border-width: 0.1px;
   transition:  0.5s ;
- box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.5);
- width: 400px;
+ box-shadow: inset 5px 5px 100px rgba(0, 0, 0, 0.5);
+
+ width: 500px;
+
   
 }
 
@@ -168,7 +182,7 @@ body{
 .skills-box:hover, 
 .education-box:hover{
 
-  padding: 50px;
+  padding: 35px;
 }
 
 .about-me{
@@ -191,9 +205,9 @@ body{
 }
 
 .skills-box{
-  height: 100px;
+  
   padding: 20px;
-
+  
 }
 
 .skills{
@@ -203,3 +217,35 @@ body{
 .education{
   margin-top: 0px;
 }
+
+/*///SKILLS PROGRESS BAR////////////*/
+
+.progress-bar{
+  width: 150%;
+  background-color: white;
+  height: 20px;
+  border-radius: 20px;
+
+
+}
+
+.progress{
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgb(74, 227, 74);
+
+}
+
+.progress.html{
+  width: 90%;
+}
+
+.progress.css{
+  width: 40%;
+}
+
+.progress.javascript{
+  width: 30%;
+}
+
+
