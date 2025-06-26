@@ -8,12 +8,7 @@ body {
   height: 250vh;
   
 }
-.outer-section{
-  display: flex;
-  width: 100%;
-  
-  
-}
+
 
 
 
@@ -141,15 +136,22 @@ body {
 
 /*/////////////////CONTENT/////////////////*/
 
+.outer-section{
+  display: flex;
+  width: max-content;
+  
+  
+}
 
 .content{
  
   right: 0;
   margin-left: 100px;
   /*background-color: rgb(72, 72, 72);*/
-  flex : 1;
+  
   /*margin-left: 520px;*/
   /*height: 1000px;*/
+  flex: 1;
   flex-direction: row;
   display: grid;
   grid-template-rows: max-content; 
@@ -263,8 +265,14 @@ body {
   width: 30%;
 }
 
+.illustration-div{
+  
+  flex: 1;
+}
+
 .illustration{
-  width: 910px;
+  width: 100%;
+  margin-top: 350px;
 }
 
 /*//////////Education timebar//////////////*/
