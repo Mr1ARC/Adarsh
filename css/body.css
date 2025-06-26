@@ -67,7 +67,7 @@ body{
 
 .name{
   font-size: 30px;
-  font-family: "Pacifico", cursive;
+  
   font-weight: 700;
   font-style: normal;
   margin-left: 100px;
@@ -131,24 +131,14 @@ body{
   display: flex;
   display: inline-block;
  justify-items: center;
- 
+ margin-left: 130px;
+
+ margin-top: 45px;
+ margin-bottom: 20px;
   
 
 }
 
-.insta,.git,.linkedin {
-  display: inline-block;
-   margin-right: 8px;
-}
-.insta{
-  margin-left: 140px;
-  margin-top: 60px;
-
-}
-
-.insta-image{
-  width: 20px;
-}
 
 /*/////////////////CONTENT/////////////////*/
 
