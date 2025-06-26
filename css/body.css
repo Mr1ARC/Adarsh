@@ -1,10 +1,13 @@
 
 body{
-  background-color: rgb(72, 72, 72);
-  color: white;
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
+    
+    font-family: 'Roboto', sans-serif;
+    /*background: linear-gradient(to bottom, #87CEEB, #1E90FF);*/
+  
+    background: repeating-linear-gradient(to bottom, #87ceeb, #1e90ff );
+    color: #F0F0F0;
+    height: 220vh; 
+    width: max-content;
 }
 .outer-section{
   display: flex;
@@ -17,8 +20,7 @@ body{
 
 
 .profile-fixed{
-  background-color: rgb(72, 72, 72);
-  color: white;
+  
   width: 500px;
  
   
@@ -36,7 +38,11 @@ body{
   border-color: rgb(72, 72, 72);
   box-shadow: inset 10px 10px 100px rgba(0, 0, 0, 0.5);
   transition: 1s;
-   
+  border: solid;
+  border-color: #ffa500;
+  border-width: 5px;
+  margin-top: 20px;
+  align-items: center;
 }
 
 
@@ -45,26 +51,27 @@ body{
 
 .avatar{
   width: 100px;
-  margin-left: 150px;
+  margin-left: 120px;
   margin-top: 40px;
   margin-bottom: 0px;
-  border: solid;
+  border: none;
   padding: 50px;
   border-radius: 16px;
   border-color: rgb(72, 72, 72);
   box-shadow: inset 10px 10px 100px rgba(0, 0, 0, 0.5);
+
 }
 
 
 /*Name*/
 
 .name{
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Pacifico", cursive;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
-  margin-left: 155px;
-  
+  margin-left: 100px;
+  color: #ffa500;
   display: inline-block;
   
 }
@@ -74,13 +81,13 @@ body{
 .role-button{
   
   font-size: 20px ;
-  margin-left: 170px;
+  margin-left: 140px;
   padding: 10px;
   width: 150px;
   margin-bottom: 30px;
   background-color: rgb(72, 72, 72);
   border-radius: 10px;
-  color: white;
+  color: #ffa500;
   border: none;
   box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.5);
   cursor: pointer;
@@ -101,6 +108,7 @@ body{
   margin-right: 20px;
   border-radius: 10px;
   box-shadow: inset 10px 10px 35px rgba(0, 0, 0, 0.5);
+  width: 400px;
 }
 .gmail-logo{
   width: 40px;
@@ -149,7 +157,7 @@ body{
  
   right: 0;
   margin-left: 100px;
-  background-color: rgb(72, 72, 72);
+  /*background-color: rgb(72, 72, 72);*/
   flex : 1;
   /*margin-left: 520px;*/
   /*height: 1000px;*/
@@ -159,19 +167,27 @@ body{
   
 }
 
-.about-me-box, .skills-box, .education-box{
+
+
+.about-me-box, .skills-box, .education-box, .upcoming-goals-box{
   display: inline-block;
   padding: 20px;
   margin: 20px;
-  border: solid;
-  border: none;
+  
+
   border-radius: 30px;
-  border-width: 0.1px;
+  border-width: 5px;
   transition:  0.5s ;
  box-shadow: inset 5px 5px 100px rgba(0, 0, 0, 0.5);
-
+  border: solid;
+  border-color: #ffa500;
+  
  width: 500px;
 
+}
+
+.upcoming-goals-box{
+  margin-right: 100px;
   
 }
 
@@ -191,7 +207,8 @@ body{
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  
+  color: #ffa500;
+  font-weight: 550;
 }
 
 .about-me-content,
@@ -211,6 +228,18 @@ body{
   margin-top: 0px;
 }
 
+.html-icon{
+  width: 50px;
+  height: 40px;
+  display: inline-block;
+}
+
+.html2{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 3px;
+  align-items: center;
+}
 .education{
   margin-top: 0px;
 }
@@ -219,7 +248,7 @@ body{
 
 .progress-bar{
   width: 150%;
-  background-color: white;
+  background-color: #d6d6d6;
   height: 20px;
   border-radius: 20px;
 
@@ -229,7 +258,7 @@ body{
 .progress{
   height: 20px;
   border-radius: 20px;
-  background-color: rgb(74, 227, 74);
+  background-color:#ffa500;
 
 }
 
@@ -243,6 +272,10 @@ body{
 
 .progress.javascript{
   width: 30%;
+}
+
+.illustration{
+  width: 60%;
 }
 
 /*//////////Education timebar//////////////*/
@@ -280,13 +313,13 @@ body{
 }
 /*///////////next page////////////////*/
 .container2{
-  height: 10000px;
+  height: 1000px;
   width: 100%;
-  
+  margin-top: 100px
 
 }
 .map{
-  width: 48.5%;
+  width: 136%;
   height: 500px;
   border-radius: 20px;
   margin-top: 100px;
@@ -311,8 +344,8 @@ body{
 .heading{
   font-size: 25px;
   margin-left: 15px;
-  font-weight: 550;
-  color: 
+  font-weight: 600;
+  color: #e4bf48;
 }
 
 .name-flex{

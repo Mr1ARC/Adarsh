@@ -40,7 +40,7 @@
               </div>
               
               <div>
-                <p class="gmail">chauhanadarshrtp29@gmail.com</p>
+                <p class="gmail">chauhanadarshrtp29@gmail.com </p>
               </div>
 
 
@@ -129,8 +129,11 @@
           <p class="skills">Skills</p>
           <div class="skills-content">
 
-            <div class="HTML">
-              <p>HTML</p>
+            <div class="HTML"> 
+              <div class="html2">
+                <p class="html-txt">HTML</p><img src="images/html.gif" alt="" class="html-icon">
+              </div>
+              
               <div class="progress-bar">
                 
                 <div class="progress html"></div>
@@ -138,14 +141,19 @@
             </div>
 
             <div class="css">
-              <p>CSS</p>
+             <div class="html2">
+                <p class="html-txt">CSS</p><img src="images/css.gif" alt="" class="html-icon">
+              </div>
               <div class="progress-bar">
                 <div class="progress css"></div>
               </div>
             </div>
 
             <div class="javascript">
-              <p>JavaScript</p>
+              <div class="html2">
+                <p class="html-txt">JavaScript</p><img src="images/javascript.png" alt="" class="html-icon">
+              </div>
+
               <div class="progress-bar">
                 <div class="progress javascript"></div>
               </div>
@@ -193,6 +201,12 @@
 
 
       </div>
+
+      
+        <img src="images/Development-cuate.svg" alt="" class="illustration">
+        
+      
+
     </div>
 
     <div class="container2"  >
@@ -205,39 +219,44 @@
 
       <div class="contact-form">
         <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+        data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000">
           <p class="heading">Wanna connect?</p>
 
         </div>
-        <div class="name-flex">
+         <div class="name-flex">
           <div class="first-name-div" data-aos="fade-right"
-            data-aos-delay="500">
-            <input type="text" placeholder="First Name" class="first-name">
+            data-aos-delay="500" >
+            <input type="text" placeholder="First Name" class="first-name firstName ">
           </div>
           <div class="last-name-div" data-aos="fade-left"
             data-aos-delay="500">
-           <input type="text" placeholder="Last Name" class="last-name">
+           <input type="text" placeholder="Last Name" class="last-name lastName">
           </div>
         </div>
 
         <div class="contact-flex">
           <div class="email-address-div" data-aos="fade-right"
             data-aos-delay="500">
-           <input type="text" placeholder="Email address" class="email-address">
+           <input type="text" placeholder="Email address" class="email-address emailAddress" >
           </div>
           <div class="phone-number-div" data-aos="fade-left" data-aos-delay="500">
-            <input type="text" placeholder="Phone Number" class="phone-number">
+            <input type="text" placeholder="Phone Number" class="phone-number phoneNumber">
           </div>
         </div>
 
         <div class="message-div" data-aos="fade-up"
             data-aos-delay="500">
-          <textarea class="message" placeholder="Message"></textarea>
+          <textarea class="message messagee" placeholder="Message"></textarea>
         </div>
 
         <div>
-          <button class="submit" data-aos="flip-up" data-aos-delay="500">Connect now</button>
+          <button class="submit" onclick="
+              saveLocal();
+            
+            "
+          
+          >Connect now</button>
         </div>
 
         
@@ -274,6 +293,8 @@
       
       });
     </script>
+
+    <script src="javascript/body.js"></script>
 
   </body>
 </html>
