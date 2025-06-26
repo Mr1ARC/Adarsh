@@ -10,7 +10,7 @@ body {
 }
 .outer-section{
   display: flex;
-  gap: 20px;
+  width: 100%;
   
   
 }
@@ -264,7 +264,7 @@ body {
 }
 
 .illustration{
-  width: 950px;
+  width: 910px;
 }
 
 /*//////////Education timebar//////////////*/
@@ -337,38 +337,26 @@ body {
 
 .name-flex{
   display: flex;
-  gap: 50px;
+  gap: 0px;
 }
 
 .contact-flex{
   display: flex;
-  gap: 50px;
+  gap: 0px;
   
 }
 
 
-.first-name-div{
-  flex: 1;
-}
 
-.last-name-div{
-  flex: 1;
-}
 
-.email-address-div{
-  flex: 1 ;
-}
 
-.phone-number-div{
-  flex: 1;
-}
 
 .first-name,
 .last-name,
 .email-address,
 .phone-number{
   padding: 15px;
-  width: 95%;
+  width: 100%;
   margin-left: 15px;
   border-radius: 8px;
   border: none;
@@ -377,7 +365,11 @@ body {
   padding-bottom: 20px;
   color: white;
   font-size: 19px;
+  
+}
 
+.last-name,.phone-number{
+  margin-left: 58px;
 }
 ::placeholder {
   font-size: 17px;
@@ -387,7 +379,7 @@ body {
 .message{
 
   padding: 15px;
-  width: 97.5%;
+  width: 31.7%;
   margin-left: 15px;
   border-radius: 8px;
   border: none;
