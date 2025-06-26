@@ -1,13 +1,12 @@
 
-body{
-    
-    font-family: 'Roboto', sans-serif;
-    /*background: linear-gradient(to bottom, #87CEEB, #1E90FF);*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background: repeating-linear-gradient(to bottom, #87ceeb, #1e90ff);
+  color: #F0F0F0;
+  margin: 0;
+  padding: 20px;
+  height: 250vh;
   
-    background: repeating-linear-gradient(to bottom, #87ceeb, #1e90ff );
-    color: #F0F0F0;
-    height: 220vh; 
-    width: max-content;
 }
 .outer-section{
   display: flex;
@@ -21,8 +20,8 @@ body{
 
 .profile-fixed{
   
-  width: 500px;
- 
+  max-width: 500px;
+  width: 100%;
   
    
   
@@ -265,7 +264,7 @@ body{
 }
 
 .illustration{
-  width: 60%;
+  width: 950px;
 }
 
 /*//////////Education timebar//////////////*/
@@ -309,7 +308,7 @@ body{
 
 }
 .map{
-  width: 136%;
+  width: 100%;
   height: 500px;
   border-radius: 20px;
   margin-top: 100px;
@@ -317,9 +316,7 @@ body{
 
 }
 
-.map:hover{
-  opacity: 1;
-}
+
 
 /*////////CONTACT-FORM//////////*/
 
