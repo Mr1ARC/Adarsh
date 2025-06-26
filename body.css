@@ -88,6 +88,7 @@ body {
 }
 
 /*contact */
+
 .gmail-div,
 .phone-div,
 .dob-div,
@@ -271,7 +272,7 @@ body {
 }
 
 .illustration{
-  width: 90%;
+  width: 80%;
   margin-top: 350px;
 }
 
@@ -334,6 +335,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: start;
+  
 }
 
 .heading{
@@ -346,6 +349,7 @@ body {
 .name-flex{
   display: flex;
   gap: 0px;
+  
 }
 
 .contact-flex{
@@ -387,7 +391,7 @@ body {
 .message{
 
   padding: 15px;
-  width: 590px;
+  width: 100%;
   margin-left: 15px;
   border-radius: 8px;
   border: none;
