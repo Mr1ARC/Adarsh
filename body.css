@@ -270,6 +270,7 @@ body {
   
   flex: 1;
   
+  
 }
 
 .illustration{
@@ -393,7 +394,7 @@ body {
 .message{
 
   padding: 15px;
-  width: 100%;
+  width: 97%;
   margin-left: 15px;
   border-radius: 8px;
   border: none;
